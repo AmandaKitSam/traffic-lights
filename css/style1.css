@@ -83,6 +83,15 @@
           transform: rotate(180deg);
 }
 
+.traffic3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -ms-transform:     rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+          transform: rotate(180deg);
+}
+
 .traffic4 {
   position: absolute;
   bottom: 0;
