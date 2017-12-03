@@ -83,6 +83,14 @@
           transform: rotate(180deg);
 }
 
+/* Compass in the middle */
+.box3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
 
 /* --------------------- Traffic Lights Style ---------------------*/
 
