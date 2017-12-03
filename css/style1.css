@@ -4,3 +4,66 @@
   box-sizing: border-box;
   font-family: 'Saira Semi Condensed', sans-serif;
 }
+
+/*-------------- The Set | The Background --------------*/
+.container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 978px;
+  background: #505050; /* Color representation for the roads */
+}
+
+.container > div {
+  height: 33.33%;
+  width: 33.33%;
+}
+
+.box2,
+.box3,
+.box4,
+.box6,
+.box8 { position: relative; }
+
+/* Color representation for the grass */
+.box1,
+.box3 { background: linear-gradient(-10deg, #51e472, #30ffc1); }
+
+/* Rounded corner */
+.box1 { border-radius: 0 0 15px 0; }
+.box3 { border-radius: 0 0 0 15px; }
+
+.box7 {
+  border-radius: 0 15px 0 0;
+  background: linear-gradient(-80deg, #32e059, #30ffc1);
+}
+.box9 {
+  border-radius: 15px 0 0 0;
+  background: linear-gradient(80deg, #32e059, #30ffc1);
+}
+
+/* Representation for the road markings */
+.box2 { border-bottom: 10px double #e6e6e6; }
+.box4 { border-right: 10px double #e6e6e6; }
+.box6 { border-left: 10px double #e6e6e6; }
+.box8 { border-top: 10px double #e6e6e6; }
+
+.line1 {
+  border: 4px double #e6e6e6;
+  position: absolute;
+  height: 100%;
+  right: 50%;
+  -ms-transform:     rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+          transform: rotate(180deg);
+}
+
+.line2 {
+  border: 4px double #e6e6e6;
+  margin-top: 156px;
+}
