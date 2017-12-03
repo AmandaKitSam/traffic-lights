@@ -289,3 +289,32 @@
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
+
+/*--------- (2nd set) RED = STOP ---------*/
+@-webkit-keyframes red-light-on-opposite {
+	0% { background-color: #222222; }
+	5% { background-color: #222222; }
+	6% { background-color: #fe000f; }
+	59% { background-color: #fe000f; }
+	60% { background-color: #222222; }
+	100% { background-color: #222222; }
+}
+
+@keyframes red-light-on-opposite {
+	0% { background-color: #222222; }
+	5% { background-color: #222222; }
+	6% { background-color: #fe000f; }
+	59% { background-color: #fe000f; }
+	60% { background-color: #222222; }
+	100% { background-color: #222222; }
+}
+
+.opposite-stop {
+	-webkit-animation-name: red-light-on-opposite;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	/*-webkit-animation-timing-function: ease-in-out;*/
+  animation-name: red-light-on-opposite;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
