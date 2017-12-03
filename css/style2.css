@@ -231,3 +231,32 @@
 	animation-duration: 20s;
 	animation-iteration-count: infinite;
 }
+
+/*--------- (1st set) YELLOW = SLOW----------*/
+@-webkit-keyframes yellow-light-on {
+	0% { background-color: #222222; }
+	45% { background-color: #222222; }
+	47% { background-color: #fcd41c; }
+	57% { background-color: #fcd41c; }
+	59% { background-color: #222222; }
+	100% { background-color: #222222; }
+}
+
+@keyframes yellow-light-on {
+	0% { background-color: #222222; }
+	45% { background-color: #222222; }
+	47% { background-color: #fcd41c; }
+	57% { background-color: #fcd41c; }
+	59% { background-color: #222222; }
+	100% { background-color: #222222; }
+}
+
+.slow {
+	-webkit-animation-name: yellow-light-on;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	/*-webkit-animation-timing-function: ease-in-out;*/
+  animation-name: yellow-light-on;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
