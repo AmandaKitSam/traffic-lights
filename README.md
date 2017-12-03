@@ -63,3 +63,8 @@
 
 ### Final:
 - In thirty minute period, both sets of the traffic lights switch lights 6 times.
+
+-----------
+### The MIT License (MIT)
+
+Copyright (c) 2017 Amanda Sam
