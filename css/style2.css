@@ -347,3 +347,32 @@
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
+
+/*--------- (2nd set) YELLOW = SLOW----------*/
+@-webkit-keyframes yellow-light-on-opposite {
+  0% { background-color: #fcd41c; }
+	5% { background-color: #fcd41c; }
+	6% { background-color: #222222; }
+	59% { background-color: #222222; }
+	99% { background-color: #222222; }
+	100% { background-color: #fcd41c; }
+}
+
+@keyframes yellow-light-on-opposite {
+  0% { background-color: #fcd41c; }
+	5% { background-color: #fcd41c; }
+	6% { background-color: #222222; }
+	59% { background-color: #222222; }
+	99% { background-color: #222222; }
+	100% { background-color: #fcd41c; }
+}
+
+.opposite-slow {
+	-webkit-animation-name: yellow-light-on-opposite;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	/*-webkit-animation-timing-function: ease-in-out;*/
+  animation-name: yellow-light-on-opposite;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
