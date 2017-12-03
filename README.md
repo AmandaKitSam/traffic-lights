@@ -18,16 +18,16 @@
 
 -----------------------------------------------------
 
-### My 1st Approach of Solving the Problem - Using skills in HTML5, CSS3 (plus using Flexbox) and jQuery
+### My 1st Approach of Solving the Problem - Using skills in HTML5, CSS3 (+ Flexbox) and jQuery
 
 - Review the code: index1.html, style1.css and main.js
 
 - Please visit the link here:
 
 
-### My 2nd Approach of Solving the Problem - Using skills in HTML5, CSS3 (plus using Flexbox and @keyframes)
+### My 2nd Approach of Solving the Problem - Using skills in HTML5, CSS3 (+ Flexbox) and @keyframes for the animation
 
-- I also tried to use CSS3 `@keyframes` for the traffic lights animation.
+- Instead of using jQuery for the traffic lights animation, I also tried to use `@keyframes` for the animation.
 
 - Review the code: index2.html and style2.css
 
@@ -61,5 +61,5 @@
 
 - The first set of the traffic lights (North & South) will turn green from red.
 
-### Step 5:
+### Final:
 - In thirty minute period, both sets of the traffic lights switch lights 6 times.
