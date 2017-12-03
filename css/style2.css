@@ -260,3 +260,32 @@
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
+
+/*--------- (1st set) RED = STOP ---------*/
+@-webkit-keyframes red-light-on {
+	0% { background-color: #fe000f; }
+	5% { background-color: #fe000f; }
+	6% { background-color: #222222; }
+	57% { background-color: #222222; }
+	59% { background-color: #fe000f; }
+	100% { background-color: #fe000f; }
+}
+
+@keyframes red-light-on {
+	0% { background-color: #fe000f; }
+	5% { background-color: #fe000f; }
+	6% { background-color: #222222; }
+	57% { background-color: #222222; }
+	59% { background-color: #fe000f; }
+	100% { background-color: #fe000f; }
+}
+
+.stop {
+	-webkit-animation-name: red-light-on;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	/*-webkit-animation-timing-function: ease-in-out;*/
+  animation-name: red-light-on;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
