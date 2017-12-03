@@ -67,3 +67,67 @@
   border: 4px double #e6e6e6;
   margin-top: 156px;
 }
+
+
+/*-------------- Traffic Lights Position --------------*/
+.traffic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.traffic2 {
+  position: absolute;
+  -ms-transform:     rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+          transform: rotate(180deg);
+}
+
+
+/* --------------------- Traffic Lights Style ---------------------*/
+
+/*----- Vertical Traffic Light -----*/
+.traffic-light {
+  border-radius: 12px;
+  background-color: #111111;
+	padding: 5px;
+	border: 2px solid #222222;
+	-moz-box-shadow:    0 0 2px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.8);
+	box-shadow:         0 0 2px rgba(0,0,0,0.8);
+}
+
+.traffic-light span {
+	display: block;
+  margin-bottom: 5px;
+  width: 46px;
+	height: 46px;
+  content:'';
+	-webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+	        border-radius: 50%;
+	background-image: -moz-radial-gradient(top, ellipse cover, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0) 100%);
+	background-image: -webkit-radial-gradient(top, ellipse cover, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0) 100%);
+	background-image: radial-gradient(top, ellipse cover, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0) 100%);
+}
+
+.traffic-light span.stop,
+.traffic-light span.opposite-stop {
+	-moz-box-shadow:    inset 0 0 8px #000000;
+	-webkit-box-shadow: inset 0 0 8px #000000;
+	box-shadow:         inset 0 0 8px #000000;
+}
+
+.traffic-light span.slow,
+.traffic-light span.opposite-slow {
+	-moz-box-shadow:    inset 0 0 8px #000000;
+	-webkit-box-shadow: inset 0 0 8px #000000;
+	box-shadow:         inset 0 0 8px #000000;
+}
+
+.traffic-light span.go,
+.traffic-light span.opposite-go {
+	-moz-box-shadow:    inset 0 0 8px #000000;
+	-webkit-box-shadow: inset 0 0 8px #000000;
+	box-shadow:         inset 0 0 8px #000000;
+}
