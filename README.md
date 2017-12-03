@@ -42,29 +42,30 @@
   The second set of the traffic lights (East & West) are red.
 
 ### Step 1:
-- The first set of the traffic lights (North & South) will stay green for 5 minutes. After 4 minutes & 30 seconds, the yellow lights will appear, which last for 30 seconds.
+- The first set of the traffic lights (North & South) will stay green for 4 minutes & 30 seconds (270s), then green -> yellow. The yellow lights will last for 30 seconds.
 
-- The second set of the traffic lights (East & West) will stay red for 5 minutes.
+- The second set of the traffic lights (East & West) will stay red for 5 minutes (300s).
 
 ### Step 2:
-- After 5 minutes, the first set of the traffic lights (North & South) will turn red; and the yellow & green lights will disappear.
+- After 30 seconds, the first set of the traffic lights (North & South) will turn from yellow to red.
 
-- The second set of the traffic lights (East & West) will turn green from red.
+- At the same time, the second set of the traffic lights (East & West) will turn from red to green.
 
 ### Step 3:
-- The second set of the traffic lights (East & West) will stay green for the next 5 minutes. After another 4 minutes & 30 seconds, the yellow (East & West) will appear, which last for 30 seconds.
+- The second set of the traffic lights (East & West) will stay green for the next 4 minutes & 30 seconds, then green -> yellow. The yellow lights will last for 30 seconds.
 
 - The first set (North & South) will stay red for the next 5 minutes.
 
 ### Step 4:
-- After 5 minutes, the second set of the traffic lights (East & West) will turn red; and the yellow & green lights will disappear.
+- After 30 seconds, the second set of the traffic lights (East & West) will turn from yellow to red.
 
-- The first set of the traffic lights (North & South) will turn green from red.
+- At the same time, the first set of the traffic lights (North & South) will turn from red to green.
 
 ### Final:
-- In thirty minute period, both sets of the traffic lights switch lights 6 times.
+- In thirty minute period (as the requirement), both sets of the traffic lights switch lights 6 times.
 
 -----------
-### The MIT License (MIT)
+
+#### The MIT License (MIT)
 
 Copyright (c) 2017 Amanda Sam
