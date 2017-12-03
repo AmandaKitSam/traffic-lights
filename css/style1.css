@@ -210,3 +210,10 @@
 .go {
   background-color: #43C532;
 }
+
+
+/*------------------- Extra Feature -------------------*/
+.finalMessage {
+  color: #ffffff;
+  text-align: center;
+}

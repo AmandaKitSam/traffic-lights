@@ -66,6 +66,9 @@
 ### Final:
 - In thirty minute period (as the requirement), both sets of the traffic lights switch lights 6 times.
 
+- A message will appear on the page at the end of the animation.<br/>
+  "This is the end of the thirty minute period."
+
 -----------
 
 #### The MIT License (MIT)
