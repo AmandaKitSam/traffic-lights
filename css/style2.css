@@ -155,7 +155,6 @@
 	-moz-box-shadow:    0 0 2px rgba(0,0,0,0.8);
 	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.8);
 	box-shadow:         0 0 2px rgba(0,0,0,0.8);
-	/*z-index: 100;*/
 }
 
 /*----- Horizontal Traffic Light -----*/
@@ -171,8 +170,7 @@
   width: 46px;
 	height: 46px;
   content:'';
-  /* temporary, will be overwritten */
-	background-color: #222222;
+	background-color: #222222; /* will be overwritten later */
 	-webkit-border-radius: 50%;
      -moz-border-radius: 50%;
 	        border-radius: 50%;
@@ -204,3 +202,32 @@
 
 
 /*------------------- ANIMATION Rotating Lights -------------------*/
+
+/*--------- (1st set) GREEN = GO ---------*/
+@-webkit-keyframes green-light-on {
+	0% { background-color: #222222; }
+	5% { background-color: #222222; }
+	6% { background-color: #43C532; }
+	46% { background-color: #43C532; }
+	47% { background-color: #222222; }
+	100% { background-color: #222222; }
+}
+
+@keyframes green-light-on {
+	0% { background-color: #222222; }
+	5% { background-color: #222222; }
+	6% { background-color: #43C532; }
+	46% { background-color: #43C532; }
+	47% { background-color: #222222; }
+	100% { background-color: #222222; }
+}
+
+.go {
+	-webkit-animation-name: green-light-on;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	/*-webkit-animation-timing-function: ease-in-out;*/
+  animation-name: green-light-on;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
