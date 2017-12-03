@@ -83,6 +83,12 @@
           transform: rotate(180deg);
 }
 
+.traffic4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 /* Compass in the middle */
 .box3 {
   display: flex;
@@ -103,6 +109,13 @@
 	-moz-box-shadow:    0 0 2px rgba(0,0,0,0.8);
 	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.8);
 	box-shadow:         0 0 2px rgba(0,0,0,0.8);
+}
+
+/*----- Horizontal Traffic Light -----*/
+.traffic-light.inline span {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 5px;
 }
 
 .traffic-light span {
