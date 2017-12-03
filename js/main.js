@@ -3,14 +3,11 @@ console.log("js file connected");
 
 $(document).ready(function() {
 
-  const totalSteps = function() {
+  // The Initial State - North & South are green; East & West are red
+  $('.go1').addClass('go');
+  $('.opposite-stop').addClass('stop');
 
-    // The Initial State - North & South are green; East & West are red
-    // green - 270s
-    setTimeout(function() {
-      $('.go1').addClass('go');
-      $('.opposite-stop').addClass('stop');
-    }, 1000);
+  const totalSteps = function() {
 
     // (Step 1 - 30s = 30000 )
     setTimeout(function() {
