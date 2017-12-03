@@ -21,7 +21,7 @@
 
 ### My 1st Approach of Solving the Problem - Using skills in HTML5, CSS3 (+ Flexbox) and jQuery
 
-- Review the code: index1.html, style1.css and main.js
+- Review the code: index.html, style1.css and main.js
 
 - Please visit the demo here: https://amandakitsam.github.io/traffic-lights/
 
@@ -42,7 +42,8 @@
   The second set of the traffic lights (East & West) are red.
 
 ### Step 1:
-- The first set of the traffic lights (North & South) will stay green for 4 minutes & 30 seconds (270s), then green -> yellow. The yellow lights will last for 30 seconds.
+- The first set of the traffic lights (North & South) will stay green for 4 minutes & 30 seconds (270s).<br/>
+(After 270s) Green -> Yellow. The yellow lights will stay for 30 seconds.
 
 - The second set of the traffic lights (East & West) will stay red for 5 minutes (300s).
 
@@ -52,9 +53,10 @@
 - At the same time, the second set of the traffic lights (East & West) will turn from red to green.
 
 ### Step 3:
-- The second set of the traffic lights (East & West) will stay green for the next 4 minutes & 30 seconds, then green -> yellow. The yellow lights will last for 30 seconds.
+- The second set of the traffic lights (East & West) will stay green for the next 4 minutes & 30 seconds.<br/>
+(After 270s) Green -> Yellow. The yellow lights will stay for 30 seconds.
 
-- The first set (North & South) will stay red for the next 5 minutes.
+- The first set (North & South) will stay red for 5 minutes.
 
 ### Step 4:
 - After 30 seconds, the second set of the traffic lights (East & West) will turn from yellow to red.
