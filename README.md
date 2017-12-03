@@ -16,14 +16,14 @@
 
 - Create a repo on bitbucket/github and provide the link as well as instructions on how to run.
 
------------------------------------------------------
+
+## Interpretation
 
 ### My 1st Approach of Solving the Problem - Using skills in HTML5, CSS3 (+ Flexbox) and jQuery
 
 - Review the code: index1.html, style1.css and main.js
 
 - Please visit the demo here: https://amandakitsam.github.io/traffic-lights/
-
 
 ### My 2nd Approach of Solving the Problem - Using skills in HTML5, CSS3 (+ Flexbox) and @keyframes for the animation
 
@@ -34,8 +34,8 @@
 ### After reviewing 2 approaches to solve the problem, I found that using jQuery to solving the problem was a lot quicker, and the code was straight forward.
 - Tried 2 approaches (`@keyframes` and `jQuery`) of solving the problem - look at the problem in a different way
 
------------------------------------------------------
-## Steps
+
+## Implementation
 
 ### The Initial State:
 - The first set of the traffic lights (North & South) are green. <br/>
