@@ -13,36 +13,36 @@ $(document).ready(function() {
     setTimeout(function() {
       $('.go1').removeClass('go');
       $('.slow1').addClass('slow');
-    }, 3000);
+    }, 30000);
 
-    // (Step 2 Switch Lights)
+    // (Step 2 Switch Lights: after 30s + stay 270s = 300s)
     setTimeout(function() {
       $('.stop1').addClass('stop');
       $('.slow1').removeClass('slow');
       $('.opposite-stop').removeClass('stop');
       $('.opposite-go').addClass('go');
-    }, 5000);
+    }, 300000);
 
-    // (Step 3 - after 270s - turn yellow & stay 30s)
+    // (Step 3 Turn Yellow: Step 2 + 30s = 330s)
     setTimeout(function() {
       $('.opposite-slow').addClass('slow');
       $('.opposite-go').removeClass('go');
-    }, 7000);
+    }, 330000);
 
-    // (Step 4 Switch Lights)
+    // (Step 4 Switch Lights: Step 3 + stay 270s = )
     setTimeout(function() {
       $('.opposite-slow').removeClass('slow');
       $('.stop1').removeClass('stop');
       $('.go1').addClass('go');
       $('.opposite-stop').addClass('stop');
-    }, 9000);
+    }, 600000);
   }; // END of totalSteps function
 
 
   // Set the animation for 6 times
   let counter = 0;
   setInterval(function() {
-    if ( counter < 2 ) {
+    if ( counter < 6 ) {
       totalSteps();
       counter += 1;
     } else {
@@ -51,6 +51,6 @@ $(document).ready(function() {
       } // END showFinal
       showFinal();
     }
-  }, 9000);
+  }, 600000);
 
 }); // END.ready function
