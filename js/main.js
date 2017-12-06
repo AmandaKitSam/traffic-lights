@@ -13,7 +13,7 @@ $(document).ready(function() {
     setTimeout(function() {
       $('.go1').removeClass('go');
       $('.slow1').addClass('slow');
-    }, 30000);
+    }, 2000);
 
     // (Step 2 Switch Lights: after 30s + stay 270s = 300s)
     setTimeout(function() {
@@ -21,13 +21,13 @@ $(document).ready(function() {
       $('.slow1').removeClass('slow');
       $('.opposite-stop').removeClass('stop');
       $('.opposite-go').addClass('go');
-    }, 300000);
+    }, 4000);
 
     // (Step 3 Turn Yellow: Step 2 + 30s = 330s)
     setTimeout(function() {
       $('.opposite-slow').addClass('slow');
       $('.opposite-go').removeClass('go');
-    }, 330000);
+    }, 7000);
 
     // (Step 4 Switch Lights: Step 3 + stay 270s = )
     setTimeout(function() {
@@ -35,22 +35,24 @@ $(document).ready(function() {
       $('.stop1').removeClass('stop');
       $('.go1').addClass('go');
       $('.opposite-stop').addClass('stop');
-    }, 600000);
+    }, 10000);
   }; // END of totalSteps function
 
+  totalSteps();
 
-  // Set the animation for 6 times
-  let counter = 0;
+
+  // Set the animation for 5 times more
+  let counter = 1;
   setInterval(function() {
-    if ( counter < 6 ) {
+    if ( counter < 5 ) {
       totalSteps();
       counter += 1;
     } else {
       let showFinal = function() {
-        $('.finalMessage').html('<h2>This is the end of the thirty minute period.</h2>');
+        $('.finalMessage').html('<h2>This is the end of the traffic lights animation.</h2>');
       } // END showFinal
       showFinal();
     }
-  }, 600000);
+  }, 10000);
 
 }); // END.ready function

@@ -12,9 +12,7 @@
 
 - You're not required to optimize the solution, just focus on a functional approach to requirements.
 
-- Provide the output for the light changes which occur during a given thirty minute period. You must provide unit tests for all logic.
-
-- Create a repo on bitbucket/github and provide the link as well as instructions on how to run.
+- Provide the output for the light changes which occur during a given thirty minute period.
 
 
 ## Interpretation
