@@ -2,6 +2,8 @@
 
 ## By Amanda Sam
 
+## Built with HTML5, CSS3 (+ CSS Flexbox, CSS @keyframes) and jQuery
+
 ### Introduction
 - You are required to provide the code for an application that simulates a set of traffic lights at an intersection.
 
@@ -14,23 +16,33 @@
 
 - Provide the output for the light changes which occur during a given thirty minute period.
 
+---
+
+### For Demonstration Purposes
+
+- Set the time frame of animations shorter to see: <br/>
+Are the traffic lights animations working correctly for both North South and East West? (Yes)
+
 
 ## Interpretation
 
-### My 1st Approach of Solving the Problem - Using skills in HTML5, CSS3 (+ Flexbox) and jQuery
+### First Approach of Solving the Problem - Using skills in jQuery for the animation
 
-- Review the code: index.html, style1.css and main.js
+- Review the code: index.html, style1.css and main.js (the animation run for 6 times as required)
 
 - Please visit the demo here: https://amandakitsam.github.io/traffic-lights/
 
-### My 2nd Approach of Solving the Problem - Using skills in HTML5, CSS3 (+ Flexbox) and @keyframes for the animation
+### Second Approach of Solving the Problem - Using skills in CSS3 @keyframes for the animation
 
-- Instead of using jQuery for the traffic lights animation, I also tried to use `@keyframes` for the animation.
+- `@keyframes` for the animation: controls the intermediate steps in a CSS animation sequence
 
 - Review the code: index2.html and style2.css
 
-### After reviewing 2 approaches to solve the problem, I found that using jQuery to solving the problem was a lot quicker, and the code was straight forward.
-- Tried 2 approaches (`@keyframes` and `jQuery`) of solving the problem - look at the problem in a different way
+### After Reviewing 2 Approaches to Solve the Problem:
+
+- Using jQuery for this project - Set time efficiency
+
+- Using CSS @keyframes for this project - Create smooth animation effects
 
 
 ## Implementation
@@ -65,7 +77,7 @@
 - In thirty minute period (as the requirement), both sets of the traffic lights switch lights 6 times.
 
 - A message will appear on the page at the end of the animation.<br/>
-  "This is the end of the thirty minute period."
+  "This is the end of the traffic lights animation."
 
 -----------
 
